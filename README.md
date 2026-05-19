@@ -1,18 +1,36 @@
-# tugas_shoope_ui
+# Tugas UI/UX Flutter — [Nama Aplikasi Pilihan]
 
-A new Flutter project.
+## Identitas
+- **Nama:I DEWA GEDE ARYA PRAMEISA**
+- **NIM:2455201110005**
+- **Pilihan: C (SHOOPE) **
 
-## Getting Started
+## Deskripsi Singkat
+Project ini merupakan clone tampilan UI aplikasi Shopee menggunakan Flutter.
+Halaman yang dibuat meliputi:
+- Home page
+- List produk
+- Search bar
+- Banner promo
 
-This project is a starting point for a Flutter application.
+## Widget yang Digunakan
+- MaterialApp — root aplikasi Flutter
+- Scaffold — struktur halaman
+- AppBar — header aplikasi
+- Column — menyusun widget vertikal
+- Row — menyusun widget horizontal
+- Container — pembungkus widget
+- ListView — menampilkan daftar produk
+- GridView — menampilkan produk grid
+- Text — menampilkan tulisan
+- Image — menampilkan gambar
+- Icon — menampilkan icon
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshot
+![Hasil UI](screenshot/hasilui1.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Wireframe
+![Wireframe](wireframe/wireframe.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# tugas_ui_flutter" 
+## Kesulitan yang Ditemui
+Kesulitan yang ditemui adalah mengatur layout agar mirip dengan tampilan Shopee asli, terutama pada bagian GridView dan responsive layout. Solusinya adalah menggunakan kombinasi Expanded, Flexible, dan padding yang sesuai.
